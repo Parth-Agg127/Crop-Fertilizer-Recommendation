@@ -1,0 +1,18 @@
+# Core Data Science Libraries
+pandas>=1.3.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+
+# Data Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Jupyter Notebook Support (if using .ipynb)
+jupyter>=1.0.0
+notebook>=6.4.0
+
+# Optional: For better data handling
+openpyxl>=3.0.0
+
+# Python version requirement
+# Python>=3.7
