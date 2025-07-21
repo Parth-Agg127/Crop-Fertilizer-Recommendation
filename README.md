@@ -1,10 +1,10 @@
 # Crop Recommendation and Fertilizer System
 
-## 📋 Project Overview
+## Project Overview
 
 This project implements an intelligent agricultural decision support system that provides crop recommendations and fertilizer suggestions based on soil and environmental conditions. The system uses machine learning algorithms to analyze various agricultural parameters and help farmers make data-driven decisions for optimal crop selection and fertilization.
 
-## 🎯 Key Features
+## Key Features
 
 - **Crop Recommendation**: Predicts the most suitable crop based on soil nutrients (N, P, K), climate conditions (temperature, humidity, rainfall), and soil pH
 - **Fertilizer Recommendation**: Suggests appropriate fertilizer types based on predicted crop and soil conditions  
@@ -12,7 +12,7 @@ This project implements an intelligent agricultural decision support system that
 - **High Accuracy**: Achieves excellent prediction accuracy using Random Forest algorithm
 - **User-Friendly Interface**: Interactive input system for real-time recommendations
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python 3.x**
 - **Machine Learning**: scikit-learn
@@ -20,7 +20,7 @@ This project implements an intelligent agricultural decision support system that
 - **Visualization**: matplotlib, seaborn
 - **Algorithm**: Random Forest Classifier/Regressor
 
-## 📊 Dataset Information
+## Dataset Information
 
 The system uses two primary datasets:
 
@@ -39,7 +39,7 @@ The system uses two primary datasets:
 - Contains soil nutrient information and corresponding fertilizer requirements
 - Merged with crop data for comprehensive analysis
 
-## 🚀 Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -56,7 +56,7 @@ The system uses two primary datasets:
    - Place `Crop_recommendation.csv` in the project directory
    - Place `fertilizer.csv` in the project directory
 
-## 💻 Usage
+## Usage
 
 ### Running the Complete System
 
@@ -91,7 +91,7 @@ print("Predicted Crop:", recommendation["predicted_crop"])
 print("Fertilizer Recommendation:", recommendation["fertilizer_recommendation"])
 ```
 
-## 🔍 Model Performance
+## Model Performance
 
 The Random Forest model achieves:
 - **High Classification Accuracy**: 95%+ accuracy on test data
@@ -104,7 +104,7 @@ The Random Forest model achieves:
 - **Classification Accuracy**: Overall prediction accuracy
 - **Precision & Recall**: Detailed per-class performance
 
-## 📈 Data Visualization
+## Data Visualization
 
 The system includes comprehensive data analysis:
 
@@ -113,7 +113,7 @@ The system includes comprehensive data analysis:
 3. **Boxplots**: Feature distributions across different crop types
 4. **Scatter Plots**: Temperature vs Humidity relationships by crop type
 
-## 🌾 Fertilizer Recommendation Logic
+## Fertilizer Recommendation Logic
 
 The system provides tailored fertilizer recommendations:
 
@@ -122,7 +122,7 @@ The system provides tailored fertilizer recommendations:
 - **Cotton & Pigeonpeas**: Phosphorus and Potassium rich fertilizer
 - **Other Crops**: General purpose NPK fertilizer
 
-## 🔧 Model Architecture
+## Model Architecture
 
 ### Data Preprocessing
 - Label encoding for categorical variables
@@ -137,7 +137,7 @@ The system provides tailored fertilizer recommendations:
 4. **Evaluation**: Cross-validation and performance metrics
 5. **Prediction**: Real-time crop and fertilizer recommendations
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 crop-fertilizer-recommendation/
@@ -148,16 +148,7 @@ crop-fertilizer-recommendation/
 ├── README.md             # Project documentation
 └── requirements.txt      # Python dependencies
 ```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 Future Enhancements
+## Future Enhancements
 
 - [ ] Web interface using Flask/Django
 - [ ] Mobile application development
@@ -167,29 +158,29 @@ crop-fertilizer-recommendation/
 - [ ] Soil image analysis using computer vision
 - [ ] Real-time IoT sensor integration
 
-## 🐛 Known Issues
+## Known Issues
 
 - Ensure CSV files are in the correct format
 - Input validation for user-entered values
 - Handle edge cases for extreme environmental conditions
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
+## Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+**Parth Aggarwal**
+- GitHub: [@Parth-Agg127](https://github.com/Parth-Agg127)
+- Email: Parthaggarwal481@gmail.com
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Dataset providers for agricultural data
 - Scikit-learn community for machine learning tools
 - Agricultural research institutions for domain knowledge
 
-## 📞 Support
+## Support
 
 If you have any questions or need support, please:
 - Create an issue on GitHub
