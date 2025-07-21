@@ -61,7 +61,7 @@ The system uses two primary datasets:
 ### Running the Complete System
 
 ```bash
-python dsvproject.py
+python Crop-Fertilizer-Reco-Project.py
 ```
 
 The script will prompt you to enter:
@@ -94,7 +94,7 @@ print("Fertilizer Recommendation:", recommendation["fertilizer_recommendation"])
 ## Model Performance
 
 The Random Forest model achieves:
-- **High Classification Accuracy**: 95%+ accuracy on test data
+- **High Classification Accuracy**: 99%+ accuracy on test data
 - **Robust Predictions**: Handles multiple crop types effectively
 - **Feature Importance**: Considers all environmental and soil factors
 
@@ -142,9 +142,10 @@ The system provides tailored fertilizer recommendations:
 ```
 crop-fertilizer-recommendation/
 │
-├── dsvproject.py          # Main implementation file
+|__ crop_recommendation_analysis.ipynb #Main implementation file 
+├── Crop-Fertilizer-Reco-Project.py  # Pyhton code file
 ├── Crop_recommendation.csv # Primary dataset
-├── fertilizer.csv         # Fertilizer data
+├── Fertilizer recommendation.csv # Fertilizer data
 ├── README.md             # Project documentation
 └── requirements.txt      # Python dependencies
 ```
@@ -164,9 +165,6 @@ crop-fertilizer-recommendation/
 - Input validation for user-entered values
 - Handle edge cases for extreme environmental conditions
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Author
 
